@@ -14,7 +14,7 @@ function Search() {
   console.debug('Search', router.query);
 
   const { search } = router.query;
-  const data = useVSTrick(search, 1, isDebug);
+  const data = useVSTrick(search, 2, isDebug);
 
   return (
     <>
