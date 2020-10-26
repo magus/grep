@@ -4,12 +4,18 @@ google autocomplete to find related words
 Inspired by [The Google ‘vs’ Trick](https://medium.com/applied-data-science/the-google-vs-trick-618c8fd5359f)
 
 ## TODO
-- call google and generate data structure client side
-  https://codesandbox.io/s/google-autocomplete-jsonp-qk2yf?file=/index.html
 
+- split on 'vs' to ensure further vs become entries
+  e.g. https://grep.now.sh/google%20music
+  returns spotify vs apple music as a result, this should be broken into 2 items, 'spotify' and 'apple music'
 - remove nested vs entries
   https://grep.now.sh/aseprite
   e.g. piskal vs mmda; graphicsgale vs piskel
+
+- call google and generate data structure client side
+  https://codesandbox.io/s/google-autocomplete-jsonp-qk2yf?file=/index.html
+
+
 
 - listing results by number of connections will be useful
 
