@@ -7,6 +7,10 @@ Inspired by [The Google ‘vs’ Trick](https://medium.com/applied-data-science/
 - call google and generate data structure client side
   https://codesandbox.io/s/google-autocomplete-jsonp-qk2yf?file=/index.html
 
+- remove nested vs entries
+  https://grep.now.sh/aseprite
+  e.g. piskal vs mmda; graphicsgale vs piskel
+
 - listing results by number of connections will be useful
 
 - server side rendering for meta tags
